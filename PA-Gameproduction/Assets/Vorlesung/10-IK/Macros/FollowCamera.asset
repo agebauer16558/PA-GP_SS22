@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FollowCamera
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":396.0,"y":-106.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"target","$type":"System.String"},"object":null},"position":{"x":14.0,"y":-126.0},"guid":"9885436e-5669-4d33-911f-545f93b704ae","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":598.0,"y":-228.0},"guid":"55ae92e7-a47f-4971-ad38-7ad3a96481fe","$version":"A","$type":"Bolt.SetMember","$id":"11"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":226.0,"y":-121.0},"guid":"54c07662-e3fb-4c47-9f33-4cee4623d1a0","$version":"A","$type":"Bolt.GetMember","$id":"14"},{"defaultValues":{},"position":{"x":451.0,"y":-121.0},"guid":"2608fc94-d5dc-495c-99a7-17cbcdcc2d96","$version":"A","$type":"Bolt.GenericAdd","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"cameraOffset","$type":"System.String"},"object":null},"position":{"x":216.0,"y":-8.0},"guid":"4b9389f6-5f7e-4f8e-8493-62b0851b204f","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"coroutine":false,"defaultValues":{},"position":{"x":-221.0,"y":-227.0},"guid":"0daa32e3-ee6f-4d80-89d0-dae88fb931d1","$version":"A","$type":"Bolt.LateUpdate","$id":"21"},{"sourceUnit":{"$ref":"21"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"db5edb94-95e3-4a48-8ea1-a85216f290c1","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"c19e5044-15df-4690-8767-0705a38f9b63","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"b","guid":"33b85409-3dab-40de-8878-a03a14650487","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"a","guid":"7b1f8c92-a12d-43dd-a09c-d3653d86ce02","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"sum","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"9fc48f11-61a0-40b8-9cce-c02b34e21129","$type":"Bolt.ValueConnection"},{"position":{"xMin":-48.0,"yMin":-319.3333,"xMax":834.0,"yMax":210.6667},"label":"Set
+      Camera Position","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"a9a1e44b-fc37-4c56-98ce-3b9910b08e21","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

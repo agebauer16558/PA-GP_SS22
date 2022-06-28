@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: DistanceBetween
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"DistanceObject","label":"DistanceObject","summary":"","hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Single","key":"Distance","label":"Distance","summary":"","hideLabel":false}],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-876.0,"y":-315.0},"guid":"17a69388-3ed9-48f9-b1e0-a45b876430cc","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"defaultValues":{},"position":{"x":-24.0,"y":-292.0},"guid":"b16ce5c7-f030-44ee-b80b-3d19c746c680","$version":"A","$type":"Bolt.GraphOutput","$id":"13"},{"chainable":false,"member":{"name":"Distance","parameterTypes":["UnityEngine.Vector3","UnityEngine.Vector3"],"targetType":"UnityEngine.Vector3","targetTypeName":"UnityEngine.Vector3","$version":"A"},"defaultValues":{"%a":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%b":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-381.0,"y":-315.0},"guid":"281c316d-7539-4e4a-88f5-7ade9501996c","$version":"A","$type":"Bolt.InvokeMember","$id":"15"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-657.0,"y":-316.0},"guid":"823d35e4-e1ab-4453-9466-997b7961ba72","$version":"A","$type":"Bolt.GetMember","$id":"18"},{"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null},"position":{"x":-655.0,"y":-168.0},"guid":"eed5362a-be47-4deb-8137-090440f5cf2c","$version":"A","$type":"Bolt.GetMember","$id":"21"},{"sourceUnit":{"$ref":"11"},"sourceKey":"DistanceObject","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"60cac587-b60c-4795-be26-9804cba92524","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%a","guid":"cc3ff434-176c-4b7b-a399-c742c25b485b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"%b","guid":"e4486d02-a4f6-4c87-9a8a-8e7ee3934c16","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"result","destinationUnit":{"$ref":"13"},"destinationKey":"Distance","guid":"9c514de8-a0f3-4aa8-9e8d-798d2bcf75e3","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
