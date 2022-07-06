@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Item
+  - prismItem
+  - goalItem
+  - Dispenser
   layers:
   - Default
   - TransparentFX
