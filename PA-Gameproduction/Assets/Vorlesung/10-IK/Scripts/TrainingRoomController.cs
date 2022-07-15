@@ -11,8 +11,8 @@ public class TrainingRoomController : MonoBehaviour
     public TextMeshProUGUI prismScoreText;
     public TextMeshProUGUI goalScoreText;
 
-    private int prismScore;
-    private int goalScore;
+    public int prismScore;
+    public int goalScore;
 
 
     private void Awake()
