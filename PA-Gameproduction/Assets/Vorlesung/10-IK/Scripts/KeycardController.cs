@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class KeycardController : MonoBehaviour
 {
-    public static KeycardController Instance { get; private set; }
-
-    private bool keycardedCollected;
+    public bool keycardCollected;
 
     // If player enters they keycard-trigger, mark keycard as collected
     // and destroy keycard in the world
@@ -14,8 +12,8 @@ public class KeycardController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            keycardedCollected = true;
-            Destroy(gameObject);
+            keycardCollected = true;
+            gameObject.GetComponent<MeshRenderer>().enabled = false;
         }
     }
 }
