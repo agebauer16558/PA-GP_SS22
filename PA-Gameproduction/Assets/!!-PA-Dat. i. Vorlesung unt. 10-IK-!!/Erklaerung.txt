@@ -1,0 +1,4 @@
+Leider wurde mir der Zugriff von Unity verweigert den Ordner 10-IK umzubenennen.
+Das Verschieben in einen neuen Ordner hatte bei mir zu Folge, dass manche Dateiverbindungen zu bruch gingen.
+
+Deswegen befindet sich alles bezüglich der Projektarbeit im Ordner 10-IK.

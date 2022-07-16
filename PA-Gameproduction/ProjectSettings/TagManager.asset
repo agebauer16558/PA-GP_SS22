@@ -8,6 +8,11 @@ TagManager:
   - prismItem
   - goalItem
   - Dispenser
+  - goal2Item
+  - Dispenser2
+  - StateButton2
+  - StateButton1
+  - StateButton3
   layers:
   - Default
   - TransparentFX

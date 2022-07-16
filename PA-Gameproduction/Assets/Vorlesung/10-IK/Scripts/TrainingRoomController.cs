@@ -10,9 +10,11 @@ public class TrainingRoomController : MonoBehaviour
     
     public TextMeshProUGUI prismScoreText;
     public TextMeshProUGUI goalScoreText;
+    public TextMeshProUGUI goalScore2Text;
 
     public int prismScore;
     public int goalScore;
+    public int goalScore2;
 
 
     private void Awake()
@@ -25,9 +27,11 @@ public class TrainingRoomController : MonoBehaviour
     {
         prismScore = 0;
         goalScore = 0;
+        goalScore2 = 0;
 
         prismScoreText.text = "" + prismScore;
         goalScoreText.text = "" + goalScore;
+        goalScore2Text.text = "" + goalScore2;
     }
 
     public void UpdatePrismScore(int pointsToAdd)
@@ -40,5 +44,11 @@ public class TrainingRoomController : MonoBehaviour
     {
         goalScore += pointsToAdd;
         goalScoreText.text = "" + goalScore;
+    }
+
+    public void UpdateGoal2Score(int pointsToAdd)
+    {
+        goalScore2 += pointsToAdd;
+        goalScore2Text.text = "" + goalScore2;
     }
 }
