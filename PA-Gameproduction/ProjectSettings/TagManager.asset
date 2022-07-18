@@ -13,6 +13,7 @@ TagManager:
   - StateButton2
   - StateButton1
   - StateButton3
+  - pushObject
   layers:
   - Default
   - TransparentFX
