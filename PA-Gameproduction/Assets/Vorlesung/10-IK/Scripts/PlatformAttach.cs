@@ -6,11 +6,14 @@ public class PlatformAttach : MonoBehaviour
 {
     public GameObject player;
 
+   
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             player.transform.parent = transform;
+            player.transform.position = transform.position;
         }
     }
 
