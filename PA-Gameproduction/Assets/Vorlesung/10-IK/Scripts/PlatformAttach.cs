@@ -13,7 +13,6 @@ public class PlatformAttach : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             player.transform.parent = transform;
-            player.transform.position = transform.position;
         }
     }
 

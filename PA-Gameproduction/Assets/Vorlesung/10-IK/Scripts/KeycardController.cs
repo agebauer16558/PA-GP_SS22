@@ -7,7 +7,7 @@ public class KeycardController : MonoBehaviour
     public bool keycardCollected;
 
     // If player enters they keycard-trigger, mark keycard as collected
-    // and destroy keycard in the world
+    // and disable keycard's Mesh-Renderer
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
