@@ -2467,7 +2467,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305938511}
-  m_LocalRotation: {x: 0.32299033, y: 0.45150217, z: -0.1795624, w: 0.8121456}
+  m_LocalRotation: {x: 0.31544647, y: 0.46006966, z: -0.17907953, w: 0.8104073}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -4213,7 +4213,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531618188}
-  m_LocalRotation: {x: 0.30816433, y: 0.45469362, z: -0.17132014, w: 0.81788623}
+  m_LocalRotation: {x: 0.30065343, y: 0.4632509, z: -0.17068145, w: 0.8160111}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7671,7 +7671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.99999994, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1.42, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115370936
@@ -10925,8 +10925,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1532027257}
-  m_LocalRotation: {x: 0.32299033, y: 0.45150217, z: -0.17956236, w: 0.8121456}
-  m_LocalPosition: {x: -0.024367332, y: 4.0380125, z: -5.7227473}
+  m_LocalRotation: {x: 0.31544647, y: 0.46006963, z: -0.17907955, w: 0.8104073}
+  m_LocalPosition: {x: 0.46186233, y: 3.4116168, z: -5.3728304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 32325766}
@@ -30471,7 +30471,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097732884}
-  m_LocalRotation: {x: 0.18205309, y: 0.38890827, z: -0.07869732, w: 0.8996743}
+  m_LocalRotation: {x: 0.18205306, y: 0.38890824, z: -0.07869731, w: 0.8996743}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -33269,11 +33269,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'Spine1'\n\tTransform 'Neck'\n\tTransform 'RightArm'\n\tTransform
-    'LeftHand'\n\tTransform 'Spine2'\n\tTransform 'RightHand'\n\tTransform 'LeftArm'\n\tTransform
-    'Head'\n\tTransform 'RightForeArm'\n\tTransform 'LeftForeArm'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
