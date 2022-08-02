@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Vorlesung/10-IK/Scenes/PA-MainScene.unity
+    guid: fd8031c305b8a6b4da9a374e8c6922c5
   m_configObjects: {}
